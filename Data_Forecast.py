@@ -4,8 +4,8 @@ import json
 conn = http.client.HTTPSConnection("visual-crossing-weather.p.rapidapi.com")
 
 headers = {
-    'X-RapidAPI-Host': "visual-crossing-weather.p.rapidapi.com",
-    'X-RapidAPI-Key': "61c42c5c5amsh09f6aa4549815fep18194bjsna618281010e6"
+    'X-RapidAPI-Host': " ",
+    'X-RapidAPI-Key': " "
 }
 
 conn.request("GET",
